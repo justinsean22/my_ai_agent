@@ -12,4 +12,4 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY . .
 
 # The command to start your agent
-CMD ["python", "main.py"]
+CMD ["python", "outbound_agent.py"]
