@@ -12,4 +12,5 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY . .
 
 # The command to start your agent
+EXPOSE 7860
 CMD ["python", "outbound_agent.py"]
